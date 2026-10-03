@@ -1,0 +1,10 @@
+{
+  "name": "maki-fra-scratch",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Et lite nevralt nettverk du kan trene, pirke i og faktisk forstå.",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}

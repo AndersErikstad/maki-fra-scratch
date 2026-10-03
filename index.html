@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111716">
+    <meta name="description" content="Et lite nevralt nettverk fra scratch. Tren det, velg et punkt og se hva hvert nevron faktisk gjør.">
+    <title>MA:KI · Et nettverk fra scratch</title>
+    <link rel="stylesheet" href="./src/page.css">
+    <link rel="stylesheet" href="./src/lab.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111716'/%3E%3Ctext x='32' y='44' text-anchor='middle' fill='%2314a8b3' font-family='sans-serif' font-weight='bold' font-size='40'%3EM%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="wordmark" href="https://github.com/AndersErikstad/maki-fra-scratch" aria-label="MAKI fra scratch på GitHub">MA<span>:</span>KI</a>
+      <span class="header-note" data-page="header">VI BYGGER FRA SCRATCH.</span>
+      <button type="button" data-language aria-label="Switch to English">EN</button>
+    </header>
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow" data-page="eyebrow">LITT FORAN PENSUM. HELT NED I REGNINGEN.</p>
+        <h1 data-page="title">Åtte nevroner.<br>Hva gjør de, egentlig?</h1>
+        <p class="page-lead" data-page="lead">Vi skal faktisk lære maskinlæring. Her er et lite nettverk vi kan trene, pirke i og forstå. Alle tallene du ser kommer fra modellen som kjører her.</p>
+      </section>
+      <div id="lab"></div>
+      <section class="page-after">
+        <h2 data-page="afterTitle">Prøv dette.</h2>
+        <ol>
+          <li><span data-page="tryOne">Tren XOR. Klikk på kartet og se hvilke nevroner som reagerer på de ulike områdene.</span></li>
+          <li><span data-page="tryTwo">Bytt til AND. Hvorfor holder det nå med én grense mellom punktene?</span></li>
+          <li><span data-page="tryThree">Prøv sirkelen. Nettverket får ikke formelen for en sirkel. Hvordan lager åtte tanh-nevroner likevel et område som nesten ligner?</span></li>
+        </ol>
+        <p data-page="afterCopy">Så kan vi åpne koden og bygge videre. Det er hele poenget.</p>
+        <a class="source-link" href="https://github.com/AndersErikstad/maki-fra-scratch" data-page="source">Koden og forklaringen ligger på GitHub ↗</a>
+      </section>
+    </main>
+    <footer class="page-footer"><span data-page="footer">MA:KI · Maskinlæring og kunstig intelligens ved UiO.</span><a href="https://peoply.app" target="_blank" rel="noopener noreferrer" data-page="peoply">Se hva som skjer på IFI ↗</a></footer>
+    <noscript>Denne laben trenger JavaScript for å regne. Koden og en forklaring ligger på <a href="https://github.com/AndersErikstad/maki-fra-scratch">GitHub</a>.</noscript>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
