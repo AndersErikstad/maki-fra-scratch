@@ -7,7 +7,7 @@ python3 nettverk.py
 python3 nettverk.py sirkel
 ```
 
-Du kan også prøve `and` og `or`. Nettverket bruker tanh, sigmoid og backprop, og skriver ut loss og noen prediksjoner etter trening. Treffer vi alle treningspunktene, kan vi fortsatt bomme på nye punkter.
+Du kan også prøve `and` og `or`. Nettverket bruker tanh, sigmoid og backprop, og skriver ut loss og noen prediksjoner etter trening. Husk at selv om vi får null i loss så kan vi fortsatt bomme på nye punkter!
 
 Prøv å endre antall nevroner, læringsraten eller dataene og se hva som skjer!
 
