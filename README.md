@@ -1,6 +1,6 @@
 # Et lite nevralt nettverk fra scratch
 
-Her er nettverket fra MAKI-laben i python, med to innganger i input-laget, ett skjult lag med åtte nevroner og én output. Alt ligger i `nettverk.py`, og du trenger kun python for å kjøre.
+Her er nettverket fra MAKI-laben i python, med to innganger i input-laget, ett skjult lag med åtte nevroner og ett output-nevron. Alt ligger i `nettverk.py`, og du trenger kun python for å kjøre.
 
 ```sh
 python3 nettverk.py
